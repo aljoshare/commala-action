@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "release-please": "17.1.2"
+  },
+  "dependencies": {
+    "action-docs": "^2.5.1"
+  }
+}

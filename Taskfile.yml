@@ -1,0 +1,13 @@
+version: "3"
+
+tasks:
+  setup:
+    cmds:
+      - npm install
+  fmt:
+    cmds:
+      - npx prettier --write .
+  generate-docs:
+    cmds:
+      - npx action-docs --update-readme
+      - npx prettier --write .

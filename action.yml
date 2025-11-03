@@ -42,16 +42,10 @@ runs:
   image: "docker://ghcr.io/aljoshare/commala:v0.2.0"
   args:
     - check
-    - --report-junit-path
-    - ${{ inputs.report-junit-path }}
-    - --author-name-enabled
-    - ${{ inputs.author-name-enabled }}
-    - --author-email-enabled
-    - ${{ inputs.author-email-enabled }}
-    - --branch-enabled
-    - ${{ inputs.branch-enabled }}
-    - --message-enabled
-    - ${{ inputs.message-enabled }}
-    - --signoff-enabled
-    - ${{ inputs.signoff-enabled }}
+    - --report-junit-path=${{ inputs.report-junit-path }}
+    - --author-name-enabled=${{ inputs.author-name-enabled }}
+    - --author-email-enabled=${{ inputs.author-email-enabled }}
+    - --branch-enabled=${{ inputs.branch-enabled }}
+    - --message-enabled=${{ inputs.message-enabled }}
+    - --signoff-enabled=${{ inputs.signoff-enabled }}
     - ${{ inputs.first-commit }}..${{ inputs.latest-commit }}

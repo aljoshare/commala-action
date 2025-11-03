@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/aljoshare/commala-action/compare/v0.3.0...v0.3.1) (2025-11-03)
+
+
+### Bug Fixes
+
+* pass args correctly ([#15](https://github.com/aljoshare/commala-action/issues/15)) ([2cd8eb5](https://github.com/aljoshare/commala-action/commit/2cd8eb5228117a0d0653af402d1396867b65b8a2))
+
 ## [0.3.0](https://github.com/aljoshare/commala-action/compare/v0.2.0...v0.3.0) (2025-11-03)
 
 

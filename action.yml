@@ -41,6 +41,7 @@ runs:
   using: "docker"
   image: "docker://ghcr.io/aljoshare/commala:v0.2.0"
   args:
+    - check
     - --report-junit-path ${{ inputs.report-junit-path }}
     - --author-name-enabled ${{ inputs.author-name-enabled }}
     - --author-email-enabled ${{ inputs.author-email-enabled }}

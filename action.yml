@@ -39,7 +39,7 @@ inputs:
     default: ""
 runs:
   using: "docker"
-  image: "docker://ghcr.io/aljoshare/commala:v0.1.0"
+  image: "docker://ghcr.io/aljoshare/commala:v0.2.0"
   args:
     - --report-junit-path ${{ inputs.report-junit-path }}
     - --author-name-enabled ${{ inputs.author-name-enabled }}

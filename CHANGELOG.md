@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/aljoshare/commala-action/compare/v0.2.0...v0.3.0) (2025-11-03)
+
+
+### Features
+
+* bump commala version and add missing subcommand ([#13](https://github.com/aljoshare/commala-action/issues/13)) ([62499bf](https://github.com/aljoshare/commala-action/commit/62499bfef2d18e56a1c35c2134861339e7dd5a15))
+
 ## [0.2.0](https://github.com/aljoshare/commala-action/compare/v0.1.0...v0.2.0) (2025-11-03)
 
 

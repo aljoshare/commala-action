@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/aljoshare/commala-action/compare/v0.1.0...v0.2.0) (2025-11-03)
+
+
+### Features
+
+* change action name ([#11](https://github.com/aljoshare/commala-action/issues/11)) ([f7eb757](https://github.com/aljoshare/commala-action/commit/f7eb757136f72993a6b4a534e0aa3d12c06e7a63))
+
 ## 0.1.0 (2025-10-27)
 
 

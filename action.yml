@@ -1,4 +1,4 @@
-name: "Commala"
+name: "commala-action"
 description: "GitHub Action to run Commala"
 author: "Aljoscha Bollmann"
 branding:

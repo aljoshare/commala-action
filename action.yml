@@ -35,7 +35,7 @@ inputs:
     default: ""
 runs:
   using: "docker"
-  image: "docker://ghcr.io/aljoshare/commala:v0.2.0"
+  image: "docker://ghcr.io/aljoshare/commala:v0.3.0"
   args:
     - check
     - --report-junit-path=${{ inputs.report-junit-path }}

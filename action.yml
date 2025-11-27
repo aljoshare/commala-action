@@ -29,12 +29,8 @@ inputs:
     description: "Whether to check for sign-offs"
     required: false
     default: "true"
-  first-commit:
-    description: "First commit to check"
-    required: false
-    default: ""
-  latest-commit:
-    description: "Latest commit to check"
+  number-of-commits:
+    description: "Limit the number of commits to check"
     required: false
     default: ""
 runs:
@@ -48,4 +44,4 @@ runs:
     - --branch-enabled=${{ inputs.branch-enabled }}
     - --message-enabled=${{ inputs.message-enabled }}
     - --signoff-enabled=${{ inputs.signoff-enabled }}
-    - ${{ inputs.first-commit }}..${{ inputs.latest-commit }}
+    - HEAD~{{ inputs.number-of-commits }}

@@ -44,4 +44,4 @@ runs:
     - --branch-enabled=${{ inputs.branch-enabled }}
     - --message-enabled=${{ inputs.message-enabled }}
     - --signoff-enabled=${{ inputs.signoff-enabled }}
-    - HEAD~{{ inputs.number-of-commits }}
+    - HEAD~${{ inputs.number-of-commits }}

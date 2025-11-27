@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/aljoshare/commala-action/compare/v0.4.0...v0.4.1) (2025-11-27)
+
+
+### Bug Fixes
+
+* add dollar sign in front of variable ([#24](https://github.com/aljoshare/commala-action/issues/24)) ([df4b299](https://github.com/aljoshare/commala-action/commit/df4b29938f973a5a01a9537d698ef8c0f968240c))
+
 ## [0.4.0](https://github.com/aljoshare/commala-action/compare/v0.3.2...v0.4.0) (2025-11-27)
 
 

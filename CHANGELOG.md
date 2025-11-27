@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0](https://github.com/aljoshare/commala-action/compare/v0.3.2...v0.4.0) (2025-11-27)
+
+
+### Features
+
+* bump version of commala to v0.3.0 ([#22](https://github.com/aljoshare/commala-action/issues/22)) ([2194c18](https://github.com/aljoshare/commala-action/commit/2194c18a238da4cb24c905df6e982861d8ac73cf))
+* use negative index as argument ([#20](https://github.com/aljoshare/commala-action/issues/20)) ([1cb5d61](https://github.com/aljoshare/commala-action/commit/1cb5d61a7d7e0725eb22d535ca30576947391a5e))
+
 ## [0.3.2](https://github.com/aljoshare/commala-action/compare/v0.3.1...v0.3.2) (2025-11-03)
 
 

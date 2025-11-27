@@ -17,16 +17,15 @@ commala is a commit linting tool that ensures that certain standards are met bef
 
 ## Inputs
 
-| name                   | description                                | required | default             |
-| ---------------------- | ------------------------------------------ | -------- | ------------------- |
-| `report-junit-path`    | <p>Path to write JUnit XML report to</p>   | `false`  | `commala-junit.xml` |
-| `author-name-enabled`  | <p>Whether to check the author name</p>    | `false`  | `true`              |
-| `author-email-enabled` | <p>Whether to check the author email</p>   | `false`  | `true`              |
-| `branch-enabled`       | <p>Whether to check the branch name</p>    | `false`  | `true`              |
-| `message-enabled`      | <p>Whether to check the commit message</p> | `false`  | `true`              |
-| `signoff-enabled`      | <p>Whether to check for sign-offs</p>      | `false`  | `true`              |
-| `first-commit`         | <p>First commit to check</p>               | `false`  | `""`                |
-| `latest-commit`        | <p>Latest commit to check</p>              | `false`  | `""`                |
+| name                   | description                                 | required | default             |
+| ---------------------- | ------------------------------------------- | -------- | ------------------- |
+| `report-junit-path`    | <p>Path to write JUnit XML report to</p>    | `false`  | `commala-junit.xml` |
+| `author-name-enabled`  | <p>Whether to check the author name</p>     | `false`  | `true`              |
+| `author-email-enabled` | <p>Whether to check the author email</p>    | `false`  | `true`              |
+| `branch-enabled`       | <p>Whether to check the branch name</p>     | `false`  | `true`              |
+| `message-enabled`      | <p>Whether to check the commit message</p>  | `false`  | `true`              |
+| `signoff-enabled`      | <p>Whether to check for sign-offs</p>       | `false`  | `true`              |
+| `number-of-commits`    | <p>Limit the number of commits to check</p> | `false`  | `""`                |
 
 <!-- action-docs-inputs source="action.yml" -->
 

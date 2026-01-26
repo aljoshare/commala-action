@@ -35,9 +35,10 @@ inputs:
     default: ""
 runs:
   using: "docker"
-  image: "docker://ghcr.io/aljoshare/commala:v0.5.0"
+  image: "docker://ghcr.io/aljoshare/commala:v0.6.0"
   args:
     - check
+    - --config=${{ github.workspace }}/.commala.yml
     - --report-junit-path=${{ inputs.report-junit-path }}
     - --author-name-enabled=${{ inputs.author-name-enabled }}
     - --author-email-enabled=${{ inputs.author-email-enabled }}

@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/aljoshare/commala-action/compare/v0.6.0...v0.7.0) (2026-01-26)
+
+
+### Features
+
+* use workspace path for config file ([#30](https://github.com/aljoshare/commala-action/issues/30)) ([57aed0b](https://github.com/aljoshare/commala-action/commit/57aed0b0af9b83e47bf947332eca7599f392c886))
+
 ## [0.6.0](https://github.com/aljoshare/commala-action/compare/v0.5.0...v0.6.0) (2026-01-13)
 
 

@@ -5,30 +5,6 @@ branding:
   icon: check-square
   color: orange
 inputs:
-  report-junit-path:
-    description: "Path to write JUnit XML report to"
-    required: false
-    default: "commala-junit.xml"
-  author-name-enabled:
-    description: "Whether to check the author name"
-    required: false
-    default: "true"
-  author-email-enabled:
-    description: "Whether to check the author email"
-    required: false
-    default: "true"
-  branch-enabled:
-    description: "Whether to check the branch name"
-    required: false
-    default: "true"
-  message-enabled:
-    description: "Whether to check the commit message"
-    required: false
-    default: "true"
-  signoff-enabled:
-    description: "Whether to check for sign-offs"
-    required: false
-    default: "true"
   number-of-commits:
     description: "Limit the number of commits to check"
     required: false
@@ -38,11 +14,5 @@ runs:
   image: "docker://ghcr.io/aljoshare/commala:v0.6.0"
   args:
     - check
-    - --config=${{ github.workspace }}/.commala.yml
-    - --report-junit-path=${{ inputs.report-junit-path }}
-    - --author-name-enabled=${{ inputs.author-name-enabled }}
-    - --author-email-enabled=${{ inputs.author-email-enabled }}
-    - --branch-enabled=${{ inputs.branch-enabled }}
-    - --message-enabled=${{ inputs.message-enabled }}
-    - --signoff-enabled=${{ inputs.signoff-enabled }}
+    - --config=/github/workspace/.commala.yml
     - HEAD~${{ inputs.number-of-commits }}

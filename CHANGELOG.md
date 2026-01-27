@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/aljoshare/commala-action/compare/v0.7.0...v0.8.0) (2026-01-27)
+
+
+### Features
+
+* fix the config path and make it mandatory ([#32](https://github.com/aljoshare/commala-action/issues/32)) ([484488f](https://github.com/aljoshare/commala-action/commit/484488f940f5d2e9774fffa5bcd89b0c493de8b6))
+
 ## [0.7.0](https://github.com/aljoshare/commala-action/compare/v0.6.0...v0.7.0) (2026-01-26)
 
 

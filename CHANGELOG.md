@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/aljoshare/commala-action/compare/v0.8.0...v0.9.0) (2026-04-03)
+
+
+### Features
+
+* bump version of commala to v0.6.1 ([#34](https://github.com/aljoshare/commala-action/issues/34)) ([c5436a0](https://github.com/aljoshare/commala-action/commit/c5436a0737a5180fed65b06b1003c5cff91f19c0))
+
 ## [0.8.0](https://github.com/aljoshare/commala-action/compare/v0.7.0...v0.8.0) (2026-01-27)
 
 

@@ -11,7 +11,7 @@ inputs:
     default: ""
 runs:
   using: "docker"
-  image: "docker://ghcr.io/aljoshare/commala:v0.6.0"
+  image: "docker://ghcr.io/aljoshare/commala:v0.6.1"
   args:
     - check
     - --config=/github/workspace/.commala.yml
